@@ -20,7 +20,12 @@ namespace Carrefour_Exercice_Git_Avance
             if (Vitesse > 0)
             {
                 Vitesse -= 2;
-            } 
+            }
+            if (Vitesse < 0)
+            {
+                Vitesse = 0;
+            }
+
         }
 
         public void Reculer()
